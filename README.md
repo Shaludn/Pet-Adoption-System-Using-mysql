@@ -60,10 +60,10 @@ pet_adoption/
 
 ## Setup and Installation
 Prerequisites
-XAMPP
-PHP 8+
-MySQL
-VS Code (optional)
+- **XAMPP
+- **PHP 8+
+- **MySQL
+- **VS Code (optional)
 
 ## Database Setup
 Open phpMyAdmin:
@@ -73,11 +73,11 @@ http://localhost/phpmyadmin
 
 CREATE DATABASE pet_adoption;
 Create required tables:
-pets
-adopters
-admins
-appointments
-Import SQL files if available.
+- **pets
+- **adopters
+- **admins
+- **appointments
+- **Import SQL files if available.
 
 ## XAMPP Setup
 Move project folder to:
@@ -85,8 +85,8 @@ C:\xampp\htdocs\
 Final project path:
 C:\xampp\htdocs\pet_adoption
 Start:
-Apache
-MySQL
+- **Apache
+- **MySQL
 
 from XAMPP Control Panel.
 
@@ -112,47 +112,47 @@ if(!$conn){
 ?>
 
 ## Main Functionalities
-Admin
-Add pets
-Delete pets
-Manage adoption requests
-View appointments
-Mark pets as adopted
-User
-View available pets
-Request adoption
-Book appointments
-View pet details
+- **Admin
+- **Add pets
+- **Delete pets
+- **Manage adoption requests
+- **View appointments
+- **Mark pets as adopted
+- **User
+- **View available pets
+- **Request adoption
+- **Book appointments
+- **View pet details
 
 
 ## Sample SQL Table (pets)
-CREATE TABLE pets (
-    pet_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    breed VARCHAR(100) NOT NULL,
-    age FLOAT NOT NULL,
-    gender ENUM('Male', 'Female') NOT NULL,
-    type ENUM('Dog', 'Cat', 'Bird', 'Rabbit', 'Other') NOT NULL,
-    color VARCHAR(50),
-    vaccination TEXT,
-    medical_condition TEXT,
-    image VARCHAR(255),
-    status ENUM('Available', 'Pending', 'Adopted') DEFAULT 'Available',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+- **CREATE TABLE pets (
+    - **pet_id INT AUTO_INCREMENT PRIMARY KEY,
+    - **name VARCHAR(100) NOT NULL,
+    - **breed VARCHAR(100) NOT NULL,
+    - **age FLOAT NOT NULL,
+    - **gender ENUM('Male', 'Female') NOT NULL,
+   - ** type ENUM('Dog', 'Cat', 'Bird', 'Rabbit', 'Other') NOT NULL,
+    - **color VARCHAR(50),
+    - **vaccination TEXT,
+    - **medical_condition TEXT,
+    - **image VARCHAR(255),
+    - **status ENUM('Available', 'Pending', 'Adopted') DEFAULT 'Available',
+    - **created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 ## Future Enhancements
-Email notifications
-Online payment for adoption fees
-AI-based pet recommendation system
-Live chat support
-Veterinary appointment integration
+- **Email notifications
+- **Online payment for adoption fees
+- **AI-based pet recommendation system
+- **Live chat support
+- **Veterinary appointment integration
 
 ## License
 This project is developed for educational purposes.
 
 ## Acknowledgements
-XAMPP
-PHP Documentation
-MySQL Documentation
-VS Code
+- **XAMPP
+- **PHP Documentation
+- **MySQL Documentation
+- **VS Code
